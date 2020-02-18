@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <script src='jquery-3.3.1.js'></script>
+    <style>
+    </style>
+
+</head>
+
+<body>
+    <botton onclick="revealmessage()"> click me to display Date and Time</botton>
+    <div id="hiddenmessage" style="display:none">
+
+        Sun Nov 10 2019 12:28:24 GMT-0800 (Pacific Standard Time)
+    </div>
+
+    <br></br>
+    <h2 id="bo2loz">My First JavaScript</h2>
+
+    <button id='btn' type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+    <p id="demo"></p>
+
+</body>
+<script>
+    function handleClick() {
+        var y = $('#demo');
+        var date = number();
+        y.html(date);    
+    }
+    var x  = $('#btn');
+    x.click(handleClick);
+    
+
+
+    function bo2loz(){
+        var y =$('#bo2loz');
+        var date = number();
+        Y.html(date);
+    }
+    
+        var newval = 0;
+        if (currentval > 0) {
+            newval = currentval - 1;
+        }
+        document.getElementById("countdownbutton").innerhtml = newval;
+    }
+</script>
+
+</html>
